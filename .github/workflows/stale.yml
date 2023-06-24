@@ -2,9 +2,6 @@ name: Stale
 
 # yamllint disable-line rule:truthy
 on: [push]
-  schedule:
-    - cron: "0 * * * *"
-
 jobs:
   stale:
     runs-on: ubuntu-latest
